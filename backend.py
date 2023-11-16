@@ -31,12 +31,8 @@ from tensorflow.keras.regularizers import l2
 from tensorflow.keras.optimizers import Adam
 
 models = ("Course Similarity",
-          "User Profile",
-          "Clustering",
-          "Clustering with PCA",
           "KNN",
           "NMF",
-          "Neural Network",
           )
 
 path = '/'.join([os.path.dirname(os.path.realpath('backend.py')), 'data'])
